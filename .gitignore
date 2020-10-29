@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/IKWID - Caravan Edition.sln.DotSettings.user
+/.idea/.idea.IKWID - Caravan Edition/.idea/
+/1.2/Assemblies/

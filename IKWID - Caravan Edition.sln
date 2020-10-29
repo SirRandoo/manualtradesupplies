@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKWID - Caravan Edition", "IKWID - Caravan Edition\IKWID - Caravan Edition.csproj", "{8902E78F-B29B-40FD-B998-E29B5875B150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8902E78F-B29B-40FD-B998-E29B5875B150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8902E78F-B29B-40FD-B998-E29B5875B150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8902E78F-B29B-40FD-B998-E29B5875B150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8902E78F-B29B-40FD-B998-E29B5875B150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
