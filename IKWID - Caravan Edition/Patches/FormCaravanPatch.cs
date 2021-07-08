@@ -14,7 +14,7 @@ namespace SirRandoo.ManualTradeSupplies.Patches
     public static class FormCaravanPatch
     {
         private static readonly FieldInfo CloseOnCancel = AccessTools.Field(typeof(Window), "closeOnCancel");
-        private static readonly FieldInfo AutoSelectFoodAndMedicine = AccessTools.Field(typeof(Dialog_FormCaravan), "autoSelectFoodAndMedicine");
+        private static readonly FieldInfo AutoSelectFoodAndMedicine = AccessTools.Field(typeof(Dialog_FormCaravan), "autoSelectTravelSupplies");
     
         public static IEnumerable<MethodBase> TargetMethods()
         {
@@ -24,7 +24,8 @@ namespace SirRandoo.ManualTradeSupplies.Patches
             );
         }
 
-        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        [NotNull]
+        public static IEnumerable<CodeInstruction> Transpiler([NotNull] IEnumerable<CodeInstruction> instructions)
         {
             var marker = false;
             foreach (CodeInstruction instruction in instructions)
